@@ -16,6 +16,10 @@
 (function($) {
     $(document).ready(function(event) {
         'use strict';
+        // CSS.
+        var style = ".steam_card_ex {clear: both;} .steam_card_ex a {z-index: 4;position: relative;padding: 5px 11px;background: #00000075;display: inline-block;color: #a8a8a8;border-radius: 3px;margin: 10px 2px 0;}.steam_card_ex a:hover {background: #08306c;color: white;}";
+        $("head").append("<style>"+style+"</style>");        
+        // The Buttons.
         var array, appid;
         var name = window.location.pathname.match(/([^\/]*)\/*$/)[1];
         if(name=="badges") {
