@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Steam Card Exchange Buttons
 // @namespace    https://steamcommunity.com/id/SychO_Droid
-// @updateURL    https://cdn.rawgit.com/SychO9/Steam-Card-Exchange-Buttons/master/sce-buttons.user.js
+// @updateURL    https://rawgit.com/SychO9/Steam-Card-Exchange-Buttons/master/sce-buttons.user.js
 // @version      1.5
 // @description  Fast Link To SCE Badge Page From Badge Progress Page.
 // @author       SychO
